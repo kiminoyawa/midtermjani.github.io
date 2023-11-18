@@ -1,0 +1,223 @@
+body{
+    background: url(https://e0.pxfuel.com/wallpapers/322/951/desktop-wallpaper-blue-forest-minimal-chromebook-pixel-background-and.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+    font-weight: 400;
+    text-shadow: 2px 3px 6px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+a :hover {
+     color: cyan;
+}
+
+img {
+    width: 100%;
+    box-shadow: 2px 3px 6px black;
+}
+
+.img1{
+    height: 250px;
+    width: 190px;
+    margin-right: 20px;
+    border-radius: 50px;
+    display: none;
+    box-shadow: 2px 3px 6px black;
+}
+
+.school{
+    height: 220px;
+    width: 230px;
+    border: 3px solid #008080;
+    border-radius: 220px;
+    box-shadow: 2px 3px 6px black;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.school-name{
+    color: cyan;
+    font-family: fantasy;
+}
+
+.school-info{
+    color: white;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 12px;
+    text-shadow: 2px 3px 6px black;
+}
+
+.table-responsive{
+    font-family: serif;
+}
+
+.cor-1{
+    font-family: fantasy;
+    color: cyan;
+    font-size: 15px;
+}
+
+.logo{
+     color: white;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-family: fantasy;
+}
+
+.text-brand {
+    color: cyan;
+}
+
+.title{
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.fav-title{
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-size: 30px;
+    background-color: #008080;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    box-shadow: 2px 3px 6px black;
+}
+
+.information{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    padding-left: 30px;
+    text-shadow: 2px 3px 6px black;
+    text-align: justify;
+}
+
+.fav-img{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.information:hover{
+    color: black;
+}
+
+.full-height {
+   min-height: 100vh; 
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   border-bottom: 2px solid #008080;
+}
+
+.exam{
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+.intro{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-shadow: 2px 3px 6px black;
+    position: relative;
+}
+
+.name{
+     color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    position: relative;
+}
+
+.A{
+    color: cyan;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 cyan;
+}
+
+/* NAVBAR */
+.navbar{
+    background:  linear-gradient(#0A1172, #48AAAD);
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: cyan;
+}
+
+.btn {
+    padding: 12 px 28 px;
+    font-weight: 700;
+}
+
+@media (min-width: 1000px){
+    .navbar {
+        min-height: 100vh;
+        width: 260px;
+        background: linear-gradient(rgba(3, 65, 73, 0.7), rgba(3, 63, 71, 0.7)), url(../image/sidebar-img.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar-brand img {
+        border: 8px solid #008080;
+    }
+
+    #content-wrapper {
+        padding-left: 260px;
+    }
+    .img1{
+        border: 4px solid #008080;
+    }
+    .school-info{
+        padding-left: 180px;
+        color: white;
+        font-size:
+    }
+    .carousel-item{
+        text-align: left;
+    }
+    .exam{
+        font-size: 100px;
+    }
+    .img1{
+        display: flex;
+    }
+}
+
+
