@@ -186,7 +186,7 @@ img {
     font-weight: 700;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 996px){
     .navbar {
         min-height: 100vh;
         width: 260px;
